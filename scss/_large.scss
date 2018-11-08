@@ -1,0 +1,40 @@
+// wrapper
+
+#wrapper {
+    max-width: 80rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px #000000;
+}
+
+// nav 
+
+nav {
+    ul {
+        margin-left: $gutters;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    ul li {
+        width: auto;
+
+        a {
+            padding: 0.5rem 1rem;
+        }
+    }
+}
+
+//main
+
+main {
+
+    figure.photo {
+        width: 25% - $gutterDbl;
+        float: left;
+        border: none;
+    }
+
+    div.blog article {
+        width: 33.33% - $gutterDbl;
+        float: left;
+    }
+}
